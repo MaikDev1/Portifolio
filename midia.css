@@ -1,0 +1,163 @@
+@media screen and (max-width: 768px) {
+  body {
+    color: white;
+    background-color: #212121;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0px;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin: 0px;
+  }
+
+  p {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+  }
+
+  strong {
+    font-weight: bold;
+    color: #2ecc71;
+  }
+
+  .menu {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .home {
+    color: white;
+    background-color: #2ecc71;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .meu-contato {
+    color: white;
+    background-color: #2ecc71;
+    border-radius: 10px;
+    margin-bottom: 4rem;
+    padding: 5px;
+  }
+
+  .sobre-mim {
+    display: inline-flex;
+    background-color: #2ecc71;
+    border: solid 1px white;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin-bottom: 4rem;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .sobre-mim a {
+    color: white;
+    font-weight: bolder;
+  }
+
+  #tecnologia img {
+    display: none;
+  }
+
+  .contatos {
+    display: inline-flex;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .img-contato {
+    width: 1.5rem;
+  }
+
+  .contatos img:hover {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform: scale(1.2);
+  }
+
+  .all-icone img {
+    width: 20px;
+  }
+
+  .all-icone {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: solid 2px #2ecc71;
+    padding: 0px 20px;
+    border-radius: 10px;
+  }
+
+  .sobre {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .mk3 {
+    border: solid 2px #2ecc71;
+    width: 200px;
+  }
+
+  .habilidades {
+    background-color: #2ecc7086;
+    border-radius: 10px;
+    gap: 10px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 30px;
+    margin-bottom: 3rem;
+    border-bottom: solid 2px #059c00;
+    border-top: solid 2px #059c00;
+  }
+
+  .habilidades img {
+    background-color: #2ecc71;
+    padding: 10px;
+    border-radius: 10px;
+    width: 2rem;
+  }
+
+  .habilidades a,
+  p {
+    color: white;
+    font-weight: bolder;
+  }
+
+  .contato {
+    align-items: center;
+    text-align: center;
+    display: inline-grid;
+  }
+
+  .img-projetos {
+    width: 100%;
+  }
+
+  .projetos {
+    display: inline-grid;
+    gap: 10px;
+    margin-bottom: 3rem;
+  }
+}
